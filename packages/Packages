@@ -45,3 +45,18 @@ Size: 221298
 SHA256sum: 309a0a9cf6b429c5234b198ae0abbebcb0de4f1424ffc96d452355ae40adca48
 Description:  Realtek rtw88-usb head version
 
+Package: mdk4
+Version: 1.0-1
+Depends: libc, libpthread, libnl200, libpcap1
+Source: custom-feed/mdk4
+SourceName: mdk4
+Section: net
+SourceDateEpoch: 1650113974
+Maintainer: Andreas Nilsen <adde88@gmail.com.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60459
+Filename: mdk4_1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61226
+SHA256sum: d93420e839f4f79e3f3479d0b7796361bab32cab9cf731dba51835a09cf1d295
+Description:  Tool to exploit wireless vulnerabilities. (DEVELOPER VERSION)
+
