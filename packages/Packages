@@ -1,3 +1,17 @@
+Package: kmod-rtl8188eu
+Version: 5.4.188+2021-02-06-1e7145f3-1
+Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), kmod-cfg80211, kmod-usb-core
+Source: custom-feed/rtl8188eu
+SourceName: kmod-rtl8188eu
+Section: kernel
+SourceDateEpoch: 1650113974
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 495395
+Filename: kmod-rtl8188eu_5.4.188+2021-02-06-1e7145f3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 477236
+SHA256sum: 7a6ea83d381ccb77061a31130493b43e276bbc9501aa7900e5d7d8bf6dfd3734
+Description:  Realtek 8188EU(S)/8188ETV support
+
 Package: kmod-rtl8812au-ac
 Version: 5.4.188+2021-02-03-b65dcf41-1
 Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), kmod-cfg80211, kmod-usb-core
