@@ -44,6 +44,22 @@ Size: 748795
 SHA256sum: 69dd35b147f112fef2192db2544ab4a4cfc3ea370c1016912f1ea19cf9018cc8
 Description:  Realtek RTL8812AU/21AU wireless drivers
 
+Package: kmod-rtl8821cu
+Version: 5.4.188+2020-12-19-428a0820-1
+Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), kmod-cfg80211, kmod-usb-core
+Source: custom-feed/rtl8821cu
+SourceName: kmod-rtl8821cu
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+SourceDateEpoch: 1650113974
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 971844
+Filename: kmod-rtl8821cu_5.4.188+2020-12-19-428a0820-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 938123
+SHA256sum: 9d61e95ce23272c739cd7c508c4ab1572025014a07b250d650346ef2cc210bb8
+Description:  Realtek RTL8811CU/RTL8821CU support
+
 Package: kmod-rtw88-usb
 Version: 5.4.188+dd05eec8-2
 Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), kmod-cfg80211, kmod-mac80211, kmod-usb-core, rtl8822be-firmware, rtl8822ce-firmware
