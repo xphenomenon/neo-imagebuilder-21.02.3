@@ -1,0 +1,23 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option path 'platform/soc/1c1d000.usb/usb3/3-1/3-1:1.0'
+	option channel '1'
+	option band '2g'
+	option htmode 'HT20'
+
+config wifi-iface 'sta_radio0'
+	option device 'radio0'
+	option network 'lan'
+	option mode 'sta'
+	option wds '1'
+	option ssid 'OpenWrt'
+	option encryption 'none'
+
+config wifi-iface 'ap_radio0'
+	option device 'radio0'
+	option network 'lan'
+	option mode 'ap'
+	option ssid 'rtl8192fu'
+	option encryption 'psk2'
+	option key '88888888'

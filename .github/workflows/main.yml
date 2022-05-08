@@ -1,0 +1,26 @@
+name: Openwrt Build Bot
+on:
+  push:
+    branches: master
+  schedule:
+  - cron: 0 0 * * *
+
+jobs:
+  buildimg:
+    name: Build Openwrt Image
+    runs-on: ubuntu-20.04
+    strategy:
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@master
+    - name: Env for Openwrt ImageBuilder
+      run: sudo apt install -y libncurses-dev
+    - name: Build Image
+      shell: bash
+      run: |
+        make info
+        ./build.sh
+    - uses: actions/upload-artifact@v2
+      with:
+        name: image
+        path: ./bin/targets/sunxi/cortexa7
