@@ -6,10 +6,10 @@ SourceName: kmod-rtl8188eu
 Section: kernel
 SourceDateEpoch: 1650113974
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 495395
+Installed-Size: 495353
 Filename: kmod-rtl8188eu_5.4.188+2021-02-06-1e7145f3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 477236
-SHA256sum: 7a6ea83d381ccb77061a31130493b43e276bbc9501aa7900e5d7d8bf6dfd3734
+Size: 477134
+SHA256sum: ded05e6771c1d2448334674f9344c44d029a4dd3c33492ad00b08e4fd077b4eb
 Description:  Realtek 8188EU(S)/8188ETV support
 
 Package: kmod-rtl8192fu
@@ -38,10 +38,10 @@ Section: kernel
 SourceDateEpoch: 1650113974
 Maintainer: Marty Jones <mj8263788@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 816974
+Installed-Size: 816949
 Filename: kmod-rtl8812au-ac_5.4.188+2021-02-03-b65dcf41-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 748795
-SHA256sum: 69dd35b147f112fef2192db2544ab4a4cfc3ea370c1016912f1ea19cf9018cc8
+Size: 748655
+SHA256sum: bba25a2ea98958e1aeb1e7867edb834ff9fe1685353bd5259585f8ca64d1c5ab
 Description:  Realtek RTL8812AU/21AU wireless drivers
 
 Package: kmod-rtl8821cu
