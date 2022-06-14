@@ -1,3 +1,18 @@
+Package: kmod-cfg80211
+Version: 5.4.188+5.10.110-1-1
+Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), iw, wireless-regdb
+Source: feeds/base/package/kernel/mac80211
+SourceName: kmod-cfg80211
+Section: kernel
+SourceDateEpoch: 1650222003
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 167791
+Filename: kmod-cfg80211_5.4.188+5.10.110-1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 167778
+SHA256sum: c00ed16d4e3e61e5c44296e6fa73fb2406fa28a0de573bdd395f462edd14dab0
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
 Package: kmod-rtl8188eu
 Version: 5.4.188+2021-02-06-1e7145f3-1
 Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), kmod-cfg80211, kmod-usb-core
@@ -58,6 +73,20 @@ Installed-Size: 1146090
 Filename: kmod-rtl8821cu_5.4.188+2022-05-04-dbf14cca-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 1126610
 SHA256sum: 4e25cca0bedb7c5c38223a70a0855fddfb062501878b30b7b852b3adb6bd1c44
+Description:  Realtek RTL8811CU/RTL8821CU support
+
+Package: kmod-rtl8852bu
+Version: 5.4.188-2
+Depends: kernel (=5.4.188-1-edfcd8cc67871aadafc46431d7139679), kmod-cfg80211, kmod-usb-core
+Source: custom-feed/rtl8852bu
+SourceName: kmod-rtl8852bu
+Section: kernel
+SourceDateEpoch: 1650113974
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2073120
+Filename: kmod-rtl8852bu_5.4.188-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2036657
+SHA256sum: 9e97270755365484767ec960bc1fc82929b83fa4588edd619fc5acf082c71700
 Description:  Realtek RTL8811CU/RTL8821CU support
 
 Package: kmod-rtw88-usb
